@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springsecurity-01-baseapp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springsecurity_01_baseapp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springsecurity-01-baseapp/web/Web" />
+      <element id="directory" name="main">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="springsecurity-01-baseapp" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.1.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.7.RELEASE" />
+            <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+            <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security/web/Web" />
+      <element id="artifact" artifact-name="spring-security:war exploded" />
+      <element id="artifact" artifact-name="spring-security:war" />
+    </root>
+  </artifact>
+</component>

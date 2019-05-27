@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="mysql-connector-java-8.0.16" />
+          <element id="library" level="project" name="Hibernate 5.4.2-5.4.2" />
+          <element id="library" level="project" name="javax.annotation-api-1.2" />
+          <element id="library" level="project" name="spring-aop-5.1.6.RELEASE-javadoc" />
+          <element id="library" level="project" name="c3p0-0.9.5.3" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.1" />
+          <element id="library" level="application" name="jstl-1.2" />
+          <element id="library" level="application" name="spring-aop-5.1.6.RELEASE-javadoc" />
+          <element id="library" level="project" name="aspectjweaver-1.9.3" />
+        </element>
+      </element>
+      <element id="directory" name="resources">
+        <element id="directory" name="css" />
+      </element>
+    </root>
+  </artifact>
+</component>
